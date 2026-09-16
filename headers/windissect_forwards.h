@@ -1,0 +1,37 @@
+#pragma once
+
+#include <cstdint>
+
+// Forward declarations (automatically generated)
+class WindissectOpaque;
+class DataDemuxer; 
+class MainDemuxerImpl; 
+namespace Microsoft { namespace WRL { class Details; } } 
+class NotificationControllerTelemetry; 
+class SubController; 
+class ToastController; 
+class Uniquifier; 
+class UserContextController; 
+namespace tip2 { class details; } 
+class tson; 
+class ActivityData; class CloseHandle; class CoTaskMemFree; class DataDemuxer; class DeletedNotification; class DemuxerContext; class DemuxerContextData; class DemuxerContextWrapper; class Destroy; class FEATURE_ERROR; class FEATURE_LOGGED_TRAITS; class FEATURE_STATE_CHANGE_SUBSCRIPTION__; class HINSTANCE__; class HSTRING__; class HTIPTEST__; class IAumidNotificationSettings; class IClassFactory; class IInspectable; class IMultiUserAwareNotificationController; class INotificationContextSinkRegistrar; class INotificationController; class INotificationController2; class INotificationControllerBadgeSink; class INotificationControllerDataSink; class INotificationControllerToastFilterSink; class INotificationControllerToastSink; class INotificationDataProvider; class INotificationDemuxerContextSink; class IRefinedNotificationDispatcher; class IStream; class IToastQueue; class IToastReporter; class IUnknown; class IWeakReference; class LeaveCriticalSection; class MainDemuxerImpl; class MainDemuxerProxy; class MainDemuxerSingletonClassFactory; class NOC_DELETED_NOTIFICATION; class NOC_GROUP; class NOC_GROUP_ITEM_PAIR; class NOC_ITEM_ACTIVATION_DATA; class NOC_QUICK_ACTIONS; class NOC_QUICK_BEHAVIOR; class NOC_QUICK_ROW; class NOC_QUICK_ROW_CARD_DATA; class NOC_QUICK_ROW_EDIT_DATA; class NOC_QUICK_ROW_IMAGE_DATA; class NOC_QUICK_ROW_PICKER_DATA; class NOC_QUICK_ROW_PICKER_ITEM_DATA; class NOC_QUICK_ROW_PROGRESS_DATA; class NOC_QUICK_ROW_TREE_DATA; class NOC_QUICK_ROW_VERB_DATA; class NOC_QUICK_VERB; class NOC_RECURSIVE_BAG; class NOC_REFINED_NOTIFICATION; class NOC_SHOULDER_TAP; class NOC_SUBGROUP; class NOC_UPDATED_NOTIFICATION; class NOC_VISUAL_PARAMS; class NotificationControllerLogging; class NotificationControllerTelemetry; class NotificationGroupInfo; class NotificationGroupInfoList; class NotificationIdentifier; class NotificationItem; class NotificationShoulderTapInfo; class NotificationStructUtility; class NotificationSubgroupInfo; class PassthroughProxy; class PassthroughProxyFactory; class QuactionData; class RefinedNotification; class RegistryDataHelper; class ReleaseSRWLockExclusive; class SinkFilterCriteria; class SinkLifetimeManager; class SubController; class SubDemuxer; class ThreadpoolHelpers; class TipReportingInfo; class ToastController; class ToastDemuxer; class ToastSettingsHelper; class ToastSinkParams; class ToastSlot; class ToastSlotEntry; class Uniquifier; class UpdatedNotification; class UserContextController; class WilFailureReport; class WilFailureReportInformation; class WrappedNotificationList; class _CONTEXT; class _EVENT_FILTER_DESCRIPTOR; class _EXCEPTION_RECORD; class _GUID; class _HAM_ACTIVITY_CALLBACK_PAYLOAD; class _RO_REGISTRATION_COOKIE; class _RTL_CRITICAL_SECTION; class _RTL_RUN_ONCE; class _RTL_SRWLOCK; class _TP_CALLBACK_INSTANCE; class _TP_TIMER; class _TlgReflectorTag_Param0IsProviderType; class _WNF_STATE_NAME; class _WNF_TYPE_ID; class _WNF_USER_SUBSCRIPTION; class __WIL_RTL_FEATURE_USAGE_DATA; class __WIL__WNF_STATE_NAME; class _tlgProvider_t; class _tlgWrapSz; class _tlgWrapperByRef; class _tlgWrapperByVal; class lambda_05cef1f6fdf474c9f3ed207deba0f73b; class lambda_2e48b73e8c8a6c4e746565e0277a2422; class lambda_3fdb14453883e86a37ebade6a7a0ebb0; class lambda_510dda7164b2e628a3880eb4cead0514; class lambda_7030d12a21dba11210293044e97fe9c7; class lambda_7f1f0d6092cda9c5948f4fb1ec013af7; class lambda_a300d414a23843a8505507f49ab093ca; class lambda_f8c1c80c7b851b79c2a5c0f257ad120b; class thunk; class tson; class type_info; class wil_FeatureState; class wil_details_FeatureReportingCache; class wil_details_FeatureStateCache; class wil_details_FeatureUsageSRUM; 
+namespace Microsoft { namespace WRL { class ClassFactory; class CloakedIid; class ComPtr; class Details; class FtmBase; class Implements; class RuntimeClassFlags; class WeakRef; } } 
+namespace Microsoft { namespace WRL { namespace Wrappers { class HStringReference; } } } 
+namespace Microsoft { namespace WRL { namespace Wrappers { namespace Details { class SyncLockCriticalSection; } } } } 
+namespace NotificationControllerTip { class _tip_ImportantNotificationQueuingTipTest; } 
+namespace StackedPriorityToastsTip { class _tip_StackedPriorityToastsTipTest; } 
+namespace TestInfo_ODR_guard { class TestInfo; } 
+namespace Windows { namespace Foundation { class IAsyncOperationCompletedHandler; } } 
+namespace Windows { namespace Foundation { namespace Collections { class IVectorView; } } } 
+namespace Windows { namespace Internal { namespace ComTaskPool { class CTaskWrapper; } } } 
+namespace Windows { namespace System { class IUser; class IUserAuthenticationStatusChangingEventArgs; class IUserChangedEventArgs; class IUserStatics; class IUserWatcher; class User; } } 
+namespace Windows { namespace System { namespace Internal { class ISignInStateManager; } } } 
+namespace std { class _Iterator_base0; class _Simple_types; class _Tree_const_iterator; class _Tree_find_hint_result; class _Tree_find_result; class _Tree_id; class _Tree_iterator; class _Tree_node; class _Tree_simple_types; class _Tree_unchecked_const_iterator; class _Tree_val; class _Value_init_tag; class _Vector_const_iterator; class _Vector_iterator; class _Vector_val; class allocator; class back_insert_iterator; class bad_alloc; class bad_array_new_length; class bad_optional_access; class bad_weak_ptr; class basic_string; class basic_string_view; class char_traits; class default_delete; class exception; class function; class initializer_list; class integer_sequence; class less; class map; class nothrow_t; class nullptr_t; class optional; class pair; class piecewise_construct_t; class ratio; class set; class shared_ptr; class tuple; class unique_ptr; class vector; class weak_ptr; } 
+namespace std { namespace chrono { class duration; class steady_clock; class time_point; } } 
+namespace tip2 { class details; class test_flag; class test_requirement; class test_state; class vector_nothrow; } 
+namespace wil { class ActivityBase; class ActivityThreadWatcher; class CallContextInfo; class FailureInfo; class ResultException; class StoredFailureInfo; class WNF_CHANGE_STAMP_STRUCT; class com_ptr_t; class critical_section; class err_exception_policy; class err_returncode_policy; class process_heap_deleter; class srwlock; class unique_any_t; } 
+namespace wil { namespace details { class DestroyThreadPoolTimer; class FeatureLogging; class FeatureStateManager; class IFailureCallback; class ResultStatus; class StoredCallContextInfo; class SystemThreadPoolMethods; class ThreadFailureCallbackHolder; class delete_wnf_subscription_state; class handle_null_only_resource_policy; class resource_policy; class unique_storage; class wnf_subscription_state; class wnf_subscription_state_base; } } 
+namespace wil { namespace details_abi { class FeatureStateData; class ProcessLocalData; class ProcessLocalStorageData; class RawUsageIndex; class ThreadLocalData; class UsageIndexProperty; class UsageIndexes; class heap_buffer; class heap_vector; } } 
+namespace wistd { class function; class integral_constant; class unique_ptr; } 
+namespace wistd { namespace __function { class __base; } } 
+

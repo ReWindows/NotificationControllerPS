@@ -1,0 +1,65 @@
+#pragma once
+#include "../windissect_forwards.h"
+
+// Reconstructed from NotificationControllerPS.dll by Windissect. 21 member(s).
+class PassthroughProxy {
+public:
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?ActivateNotification@PassthroughProxy@@UEAAJPEBG0PEBUNOC_ITEM_ACTIVATION_DATA@@@Z
+    virtual long ActivateNotification(unsigned short const *, unsigned short const *, NOC_ITEM_ACTIVATION_DATA const *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?ActivateNotificationGroup@PassthroughProxy@@UEAAJPEBG@Z
+    virtual long ActivateNotificationGroup(unsigned short const *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?AllowForegroundTransfer@PassthroughProxy@@UEAAJPEAX@Z
+    virtual long AllowForegroundTransfer(void *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?DeleteNotifications@PassthroughProxy@@UEAAJPEBUNOC_GROUP_ITEM_PAIR@@K@Z
+    virtual long DeleteNotifications(NOC_GROUP_ITEM_PAIR const *, unsigned long);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?DeprioritizeToast@PassthroughProxy@@UEAAJPEBG0@Z
+    virtual long DeprioritizeToast(unsigned short const *, unsigned short const *);
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?GetSettingsForAumid@PassthroughProxy@@UEAAJPEBGPEAPEAUIAumidNotificationSettings@@@Z
+    virtual long GetSettingsForAumid(unsigned short const *, IAumidNotificationSettings * *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?InformUiInteractionOccurred@PassthroughProxy@@UEAAJPEBG0W4NocNotificationUiSurface@@W4NocNotificationUiInteraction@@@Z
+    virtual long InformUiInteractionOccurred(unsigned short const *, unsigned short const *, int, int);
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?IsNamedToastSinkEmpty@PassthroughProxy@@UEAAJPEBGPEAH@Z
+    virtual long IsNamedToastSinkEmpty(unsigned short const *, int *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?RegisterBadgeSink@PassthroughProxy@@UEAAJPEAUINotificationControllerBadgeSink@@PEAKKW4__MIDL___MIDL_itf_notificationcontroller_0000_0003_0003@@@Z
+    virtual long RegisterBadgeSink(INotificationControllerBadgeSink *, unsigned long *, unsigned long, int);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?RegisterDataSink@PassthroughProxy@@UEAAJPEAUINotificationControllerDataSink@@PEAKW4__MIDL___MIDL_itf_notificationcontroller_0000_0003_0001@@@Z
+    virtual long RegisterDataSink(INotificationControllerDataSink *, unsigned long *, int);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?RegisterToastFilterSink@PassthroughProxy@@UEAAJPEAUINotificationControllerToastFilterSink@@PEAK@Z
+    virtual long RegisterToastFilterSink(INotificationControllerToastFilterSink *, unsigned long *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?RegisterToastSink@PassthroughProxy@@UEAAJPEAUINotificationControllerToastSink@@PEAKKPEBGW4__MIDL___MIDL_itf_notificationcontroller_0000_0003_0002@@@Z
+    virtual long RegisterToastSink(INotificationControllerToastSink *, unsigned long *, unsigned long, unsigned short const *, int);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?RuntimeClassInitialize@PassthroughProxy@@QEAAJXZ
+    long RuntimeClassInitialize();
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?SaveNotificationDraft@PassthroughProxy@@UEAAJPEBG0PEBUNOC_ITEM_ACTIVATION_DATA@@@Z
+    virtual long SaveNotificationDraft(unsigned short const *, unsigned short const *, NOC_ITEM_ACTIVATION_DATA const *);
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?SetCurrentDisplaySettings@PassthroughProxy@@UEAAJPEBUNOC_VISUAL_PARAMS@@@Z
+    virtual long SetCurrentDisplaySettings(NOC_VISUAL_PARAMS const *);
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?SetNocenterStatus@PassthroughProxy@@UEAAJW4__MIDL___MIDL_itf_notificationcontroller_0000_0004_0001@@@Z
+    virtual long SetNocenterStatus(int);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?ToastReportStatus@PassthroughProxy@@UEAAJPEBG0W4__MIDL___MIDL_itf_wpnplatform_0000_0007_0001@@@Z
+    virtual long ToastReportStatus(unsigned short const *, unsigned short const *, int);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?UnregisterSink@PassthroughProxy@@UEAAJK@Z
+    virtual long UnregisterSink(unsigned long);
+private:
+    // Category: Dtor | Source: PDB Internal
+    // Symbol: ??1PassthroughProxy@@EEAA@XZ
+    virtual ~PassthroughProxy();
+};

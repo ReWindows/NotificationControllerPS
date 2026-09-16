@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "target": "NotificationControllerPS.dll",
+  "latest": "1303495306-6511CAEBBBA20E0D0B4870571A3EA8EB-1",
+  "builds": [
+    {
+      "key": "1303495306-6511CAEBBBA20E0D0B4870571A3EA8EB-1",
+      "timestamp": "1303495306",
+      "pdb_guid": "6511CAEBBBA20E0D0B4870571A3EA8EB",
+      "pdb_age": 1,
+      "machine": "0x8664",
+      "ir": "builds/1303495306-6511CAEBBBA20E0D0B4870571A3EA8EB-1/ir.json.gz",
+      "previous": null,
+      "diff_json": null,
+      "diff_markdown": null,
+      "summary": null
+    }
+  ],
+  "compression": "gzip"
+}
